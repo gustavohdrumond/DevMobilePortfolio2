@@ -1,14 +1,79 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      Drummond Lanches
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+
+  <ion-card>
+    <img src="assets/imgs/dia.jpg"/>
+    <ion-card-content>
+      <ion-card-title>
+        Prato do dia
+        </ion-card-title>
+      <p><b>
+        Prato promocional com entrada + refeição + sobremesa
+      </b></p>
+        <p>
+        Delicioso prato tipico com bife de boi, ovos, salada, batata-frita, arroz e feijão.
+        Mousse de Maracujá acompanha como sobremesa.
+      </p>
+      <button ion-button clear>Saiba mais</button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Nosso cardápio
+    </ion-card-header>
+  
+    <ion-list>
+
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/lanches.png">
+        </ion-avatar>
+        Lanches
+      </button>
+  
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/entrada.jpg">
+        </ion-avatar>
+        Pratos de entrada
+      </button>
+  
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/refeicao.jpg">
+        </ion-avatar>
+        Pratos de refeição
+      </button>
+  
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/sobremesa.jpg">
+        </ion-avatar>
+        Sobremesas
+      </button>
+  
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/bebidas.jpg">
+        </ion-avatar>
+        Bebidas
+      </button>
+ 
+  
+    </ion-list>
+  </ion-card>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+  <ion-title>Portfólio - Gustavo Leão</ion-title>
+  </ion-toolbar>
+  </ion-footer>
