@@ -32,35 +32,35 @@
   
     <ion-list>
 
-      <button ion-item>
+      <button ion-item [navPush]="LanchesPage">
         <ion-avatar item-start>
           <img src="assets/imgs/lanches.png">
         </ion-avatar>
         Lanches
       </button>
   
-      <button ion-item>
+      <button ion-item [navPush]="PratoEntradaPage">
         <ion-avatar item-start>
           <img src="assets/imgs/entrada.jpg">
         </ion-avatar>
         Pratos de entrada
       </button>
   
-      <button ion-item>
+      <button ion-item [navPush]="RefeicaoPage">
         <ion-avatar item-start>
           <img src="assets/imgs/refeicao.jpg">
         </ion-avatar>
         Pratos de refeição
       </button>
   
-      <button ion-item>
+      <button ion-item [navPush]="SobremesasPage">
         <ion-avatar item-start>
           <img src="assets/imgs/sobremesa.jpg">
         </ion-avatar>
         Sobremesas
       </button>
   
-      <button ion-item>
+      <button ion-item [navPush]="BebidasPage">
         <ion-avatar item-start>
           <img src="assets/imgs/bebidas.jpg">
         </ion-avatar>
@@ -73,7 +73,7 @@
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar color="secondary">
+  <ion-toolbar color="primary">
   <ion-title>Portfólio - Gustavo Leão</ion-title>
   </ion-toolbar>
   </ion-footer>
