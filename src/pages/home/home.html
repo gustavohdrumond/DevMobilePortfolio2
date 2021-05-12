@@ -32,35 +32,35 @@
   
     <ion-list>
 
-      <button ion-item [navPush]="LanchesPage">
+      <button ion-item (click)="abreLanches($event)">
         <ion-avatar item-start>
           <img src="assets/imgs/lanches.png">
         </ion-avatar>
         Lanches
       </button>
   
-      <button ion-item [navPush]="PratoEntradaPage">
+      <button ion-item (click)="abreEntrada($event)">
         <ion-avatar item-start>
           <img src="assets/imgs/entrada.jpg">
         </ion-avatar>
         Pratos de entrada
       </button>
   
-      <button ion-item [navPush]="RefeicaoPage">
+      <button ion-item (click)="abreRefeicao($event)">
         <ion-avatar item-start>
           <img src="assets/imgs/refeicao.jpg">
         </ion-avatar>
         Pratos de refeição
       </button>
   
-      <button ion-item [navPush]="SobremesasPage">
+      <button ion-item (click)="abreSobremesas($event)">
         <ion-avatar item-start>
           <img src="assets/imgs/sobremesa.jpg">
         </ion-avatar>
         Sobremesas
       </button>
   
-      <button ion-item [navPush]="BebidasPage">
+      <button ion-item (click)="abreBebidas($event)">
         <ion-avatar item-start>
           <img src="assets/imgs/bebidas.jpg">
         </ion-avatar>
